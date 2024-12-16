@@ -62,8 +62,10 @@ Qualtrics.SurveyEngine.addOnUnload(function()
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {word : 'Progressive'}, 
-    			{word : 'Democrat'}, 
+    		    {word : 'Democrat'}, 
+    			{word : 'Blue'}, 
+			{word : 'California'}, 
+			{word : 'MSNBC'}, 
     			{word : 'Left-wing'}
     		
 			], 
@@ -78,8 +80,10 @@ Qualtrics.SurveyEngine.addOnUnload(function()
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {word : 'Traditional'}, 
-    			{word : 'Republican'}, 
+    		    {word : 'Republican'}, 
+    			{word : 'Red'}, 
+			{word : 'Texas'}, 
+			{word : 'Fox News'}, 
     			{word : 'Right-wing'}
    			], 
 			//Stimulus css
