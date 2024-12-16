@@ -37,7 +37,7 @@ Qualtrics.SurveyEngine.addOnUnload(function()
     // This function gets activated only after MinnoJS is loaded
     function onLoad() {
         // Run your study (just set the correct URL)
-        minnoJS(canvas, 'aweisman32.github.io/Affective-Polarization-IAT/affectiveIAT.js');
+        minnoJS(canvas, 'https://cdn.jsdelivr.net/gh/aweisman32/Affective-Polarization-IAT@refs/heads/main/affectiveIAT.js');
 
         // MinnoJS doesn't know about Qualtrics, we pass a function to inject the results into the question
         // For some reason `piGlobal` isn't available so we attach it to `minnoJS`
